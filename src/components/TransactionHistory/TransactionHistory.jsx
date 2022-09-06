@@ -23,5 +23,11 @@ const TransactionHistory = ({ items }) =>
     </tbody>
 </table>
 )
+
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.objectOf(PropTypes.string.isRequired).isRequired
+  ).isRequired,
+};
     
-export default TransactionHistory
+export default TransactionHistory;
