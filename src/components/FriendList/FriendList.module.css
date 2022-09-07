@@ -1,0 +1,7 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    border: 4mm ridge rgba(50, 155, 220, 0.6);
+}

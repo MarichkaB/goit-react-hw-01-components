@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.green {
+    background-color: green;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.red {
+    background-color: red;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+
+}

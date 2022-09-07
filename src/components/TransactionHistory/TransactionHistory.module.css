@@ -1,0 +1,17 @@
+.transaction {
+    width: 100%;
+    text-align: center;
+    border: 4mm ridge rgba(50, 155, 220, 0.6);
+}
+
+.thead {
+    background-color: #00cccc;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
+
+.tbody td {
+    padding: 20px;
+    color: gray;
+}
